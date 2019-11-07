@@ -4,8 +4,6 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 
-const 
-
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(cookieParser());
 
